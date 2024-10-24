@@ -44,7 +44,7 @@ control.Kp_as = 2;
 control.Ki_as = 0.1; % 0.1*Kp como valor inicial
 control.Kd_as = 0;
 % altitude PID control parameters (outer loop)
-control.Kp_altitude = 0;
+control.Kp_altitude = 1;
 control.Ki_altitude = 0;
 control.Kd_altitude = 0;
 
